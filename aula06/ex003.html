@@ -15,14 +15,18 @@
         h1{
             color: yellow;
         }
+
     </style>
 </head>
 <body>
-    <h1>Olá, nome</h1>
+    <h1>Olá,</h1>
     <p>Já me livrei da maldição</p>
     <script>
-        var nome = window.prompt('Qual é seu nome?')
-        window.alert('É um prazer em te conhecer, ' + nome)
+        var n1 = Number.parseInt(window.prompt('Digite um numero'))
+        var n2 = Number.parseInt(window.prompt('Digite outro numero'))
+        var r = n1 + n2
+        window.alert('O resultado é ' + r)
+        document.write(`Olá ${n1}`)
     </script>
 </body>
 </html>
